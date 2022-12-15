@@ -1,0 +1,228 @@
+main {
+    .handmade {
+        background-image: url("/assets/imgs/background\ img.webp");
+        height: 100vh;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        .ceramics {
+            color: white;
+            text-align: center;
+            padding-top: 300px;
+            h1 {
+                font-size: 100px;
+            }
+            p {
+                padding: 45px;
+                font-size: 25px;
+            }
+            button {
+                background-color: white;
+                border: none;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+        }
+    }
+    .our_bestsellers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            text-align: center;
+            font-size: 60px;
+        }
+        .umumi {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            max-width: 100%;
+            .card {
+                padding: 20px;
+            }
+            img {
+                margin-top: 75px;
+            }
+            h4 {
+                font-size: 30px;
+                padding-top: 10px;
+            }
+            p {
+                font-size: 20px;
+                padding-top: 15px;
+            }
+        }
+        button {
+            background-color: white;
+            border: 0 0 0 0;
+            color: black;
+            padding: 15px 32px;
+            font-size: 16px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+    }
+    .home_decor {
+        background: url("/assets/imgs/homedecor.webp");
+        height: 100vh;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        .items {
+            color: white;
+            text-align: center;
+            padding-top: 300px;
+            h2 {
+                font-size: 100px;
+            }
+            p {
+                padding: 45px;
+                font-size: 25px;
+            }
+            button {
+                background-color: white;
+                border: none;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .genel {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            max-width: 100%;
+            .card2 {
+                padding: 20px;
+                h4 {
+                    font-size: 30px;
+                    padding-top: 10px;
+                }
+                p {
+                    font-size: 20px;
+                    padding-top: 15px;
+                }
+                img {
+                    margin-top: 75px;
+                }
+                button {
+                    background-color: white;
+                    border: 0 0 0 0;
+                    color: black;
+                    padding: 15px 32px;
+                    font-size: 16px;
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .sign{
+        background: url("/assets/imgs/sign\ up.avif");
+        height: 100vh;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        .newsletter{
+            color: white;
+            text-align: center;
+            padding-top: 300px;
+            h2{
+                font-size: 80px;
+            }
+            input{
+                border: 1px solid none;
+                font-size: 25px;
+                outline: none;
+            }
+        }
+        button {
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+    .son{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            text-align: center;
+            font-size: 60px;
+        }
+        .kartlar{
+            padding-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            max-width: 100%;
+            .card3 {
+                padding: 20px;
+            }
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+}
+@media only screen and (max-width: 760px) {
+    .handmade {
+        background-image: url("/assets/imgs/background\ img.webp");
+        height: 100vh;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        .ceramics {
+            color: white;
+            text-align: center;
+            padding-top: 300px;
+            h1 {
+                font-size: 100px;
+            }
+            p {
+                padding: 45px;
+                font-size: 25px;
+            }
+            button {
+                background-color: white;
+                border: none;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+        }
+    }
+  }

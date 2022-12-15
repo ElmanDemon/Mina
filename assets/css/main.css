@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: rgb(211, 211, 211);
+  padding: 40 0px;
+}
+footer img {
+  width: 60%;
+  display: block;
+  padding: 40px 0;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: black;
+  padding: 0 30px;
+  font-size: 1.2em;
+}
+footer i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+footer .left {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: rgb(211, 211, 211);
+  padding: 40 0px;
+}
+footer img {
+  width: 60%;
+  display: block;
+  padding: 40px 0;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: black;
+  padding: 0 30px;
+  font-size: 1.2em;
+}
+footer i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+footer .left {
+  margin: 30px;
+}
+
+header .navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+header .navbar .logo i {
+  display: none;
+}
+header .navbar button {
+  display: none;
+}
+header .navbar .navbar_sag {
+  list-style: none;
+  justify-content: end;
+  display: flex;
+  flex-direction: row;
+}
+header .navbar .navbar_sag .esas_menyu {
+  display: block;
+}
+header .navbar .navbar_sag li {
+  display: inline;
+}
+header .navbar .navbar_sag li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+@media only screen and (max-width: 760px) {
+  .navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: block;
+  }
+  .navbar .logo i {
+    display: block !important;
+    margin-right: 30px;
+  }
+  .navbar button {
+    border: none;
+    background: transparent;
+    display: block !important;
+  }
+  .navbar .esas_menyu {
+    display: none !important;
+  }
+  .navbar ul {
+    list-style: none;
+    justify-content: end;
+  }
+  .navbar li {
+    display: inline;
+  }
+  .navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 0 30px;
+  }
+  #mobile {
+    width: 100%;
+    height: 20vh;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 5%;
+    display: none;
+    text-align: end;
+    transition: 0.5s;
+    list-style: none;
+  }
+  #mobile li {
+    padding-top: 10px;
+  }
+  #mobile a {
+    text-decoration: none;
+    color: black;
+  }
+}
+main .handmade {
+  background-image: url("/assets/imgs/background img.webp");
+  height: 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+main .handmade .ceramics {
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+main .handmade .ceramics h1 {
+  font-size: 100px;
+}
+main .handmade .ceramics p {
+  padding: 45px;
+  font-size: 25px;
+}
+main .handmade .ceramics button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+main .our_bestsellers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .our_bestsellers h2 {
+  text-align: center;
+  font-size: 60px;
+}
+main .our_bestsellers .umumi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+main .our_bestsellers .umumi .card {
+  padding: 20px;
+}
+main .our_bestsellers .umumi img {
+  margin-top: 75px;
+}
+main .our_bestsellers .umumi h4 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+main .our_bestsellers .umumi p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+main .our_bestsellers button {
+  background-color: white;
+  border: 0 0 0 0;
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+main .home_decor {
+  background: url("/assets/imgs/homedecor.webp");
+  height: 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+main .home_decor .items {
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+main .home_decor .items h2 {
+  font-size: 100px;
+}
+main .home_decor .items p {
+  padding: 45px;
+  font-size: 25px;
+}
+main .home_decor .items button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+main .about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .about .genel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+main .about .genel .card2 {
+  padding: 20px;
+}
+main .about .genel .card2 h4 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+main .about .genel .card2 p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+main .about .genel .card2 img {
+  margin-top: 75px;
+}
+main .about .genel .card2 button {
+  background-color: white;
+  border: 0 0 0 0;
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+main .sign {
+  background: url("/assets/imgs/sign up.avif");
+  height: 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+main .sign .newsletter {
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+main .sign .newsletter h2 {
+  font-size: 80px;
+}
+main .sign .newsletter input {
+  border: 1px solid none;
+  font-size: 25px;
+  outline: none;
+}
+main .sign button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+main .son {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .son h2 {
+  text-align: center;
+  font-size: 60px;
+}
+main .son .kartlar {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+main .son .kartlar .card3 {
+  padding: 20px;
+}
+main .son a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 760px) {
+  .handmade {
+    background-image: url("/assets/imgs/background img.webp");
+    height: 100vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+  }
+  .handmade .ceramics {
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+  }
+  .handmade .ceramics h1 {
+    font-size: 100px;
+  }
+  .handmade .ceramics p {
+    padding: 45px;
+    font-size: 25px;
+  }
+  .handmade .ceramics button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=main.css.map */

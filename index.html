@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <button id="btn"><i class="fa-solid fa-bars"></i></button>
+            <div class="logo">
+                <img src="./assets/imgs/Logo.avif" alt="">
+            </div>
+            <ul class="navbar_sag">
+                <div class="esas_menyu">
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </div>
+                <li><a href=""><i class="fa-solid fa-bag-shopping"></i>Cart(0)</a></li>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <li><a href="">Shop</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </div>
+    </header>
+
+    <main>
+        <section class="handmade">
+            <div class="ceramics">
+                <h1>Handmade ceramics</h1>
+                <p>Painted clay ceramics made with love.</p>
+                <button>Shop now</button>
+            </div>
+        </section>
+        <section class="our_bestsellers">
+            <h2>Our bestsellers</h2>
+            <div class="umumi">
+                <div class="card">
+                    <img src="./assets/imgs/candy.avif" alt="">
+                    <h4>'Candy' Flowerpot</h4>
+                    <p>$59.99</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/drop.avif" alt="">
+                    <h4>'Drop' Vase</h4>
+                    <p>$49.99</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/wave.avif" alt="">
+                    <h4>'Wave' Vase</h4>
+                    <p>$69.99</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/sun.avif" alt="">
+                    <h4>'Sun' Vase</h4>
+                    <p>$49.99</p>
+                </div>
+            </div>
+            <button>Buy now</button>
+        </section>
+        <section class="home_decor">
+            <div class="items">
+                <h2>Home decor items</h2>
+                <p>Find your new favorite pieces.</p>
+                <div><button>Shop now</button></div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="genel">
+                <div class="card2">
+                    <img src="./assets/imgs/about mina.avif" alt="">
+                    <h4>About Mina</h4>
+                    <p>Mina is a brand born out of a passion for ceramics.</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="card2">
+                    <img src="./assets/imgs/sustainability.avif" alt="">
+                    <h4>Sustainability</h4>
+                    <p>Mina is an eco-friendly brand that cares about sustainability.</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+        </section>
+        <section class="sign">
+            <div class="newsletter">
+                <h2>Sign-up for our newsletter</h2>
+                <input type="text" placeholder="Your email address">
+                <div><button>Submit</button></div>
+            </div>
+        </section>
+        <section class="son">
+            <h2>Follow us on Instagram</h2>
+            <div class="kartlar">
+                <div class="card3">
+                    <img src="./assets/imgs/caydan.webp" alt="">
+                </div>
+                <div class="card3">
+                    <img src="./assets/imgs/sokolad.avif" alt="">
+                </div>
+                <div class="card3">
+                    <img src="./assets/imgs/kofe.webp" alt="">
+                </div>
+            </div>
+            <a href="">@mina_studio</a>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="right">
+                <img src="./assets/imgs/Logo.avif" alt="">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="left">
+                <a href="">Payments & Delivery</a>
+                <a href="">Returns</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const mobile = document.querySelector('#mobile');
+        const btn = document.querySelector('#btn')
+        btn.onclick = () => {
+            mobile.style.display = mobile.style.display == '' ? 'block' : ''
+            if (mobile.style.display == 'block') {
+                btn.innerHTML = `<i class="fas fa-times"></i>`
+            }
+            else {
+                btn.innerHTML = `<i class="fa-solid fa-bars"></i>`
+            }
+        }
+    </script>
+
+</body>
+
+</html>

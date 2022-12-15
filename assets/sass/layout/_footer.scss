@@ -1,0 +1,29 @@
+footer{
+    margin-top: 150px;
+    background-color: rgb(211, 211, 211);
+    padding: 40 0px;
+    img{
+        width: 60%;
+        display: block;
+        padding: 40px 0;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        color: black;
+        padding: 0 30px;
+        font-size: 1.2em;
+    }
+    i{
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    .left{
+        margin: 30px;
+    }
+
+}
