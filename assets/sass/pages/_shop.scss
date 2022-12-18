@@ -1,0 +1,66 @@
+main {
+    .shop_background {
+        background-image: url("/assets/imgs/backgroung\ shop.avif");
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        h2 {
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+            font-size: 100px;
+        }
+    }
+    .middle_icon {
+        .middle_icons {
+            text-align: center;
+            ul {
+                display: flex;
+                gap: 40px;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .umumi {
+        max-width: 1200px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        margin: 0 auto;
+        .card {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        img {
+            margin-top: 75px;
+        }
+        h4 {
+            font-size: 30px;
+            padding-top: 10px;
+        }
+        p {
+            font-size: 20px;
+            padding-top: 15px;
+        }
+    }
+}
+@media only screen and (max-width: 760px) {
+    main{
+        .umumi {
+        
+            grid-template-columns: auto;
+           
+            
+        }
+    }
+  }

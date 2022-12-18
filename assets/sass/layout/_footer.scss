@@ -1,29 +1,45 @@
-footer{
+footer {
     margin-top: 150px;
     background-color: rgb(211, 211, 211);
     padding: 40 0px;
-    img{
+    img {
         width: 60%;
         display: block;
         padding: 40px 0;
     }
-    .container{
+    .container {
         width: 80%;
         margin: auto;
         display: flex;
         justify-content: space-between;
     }
-    a{
+    a {
         color: black;
         padding: 0 30px;
         font-size: 1.2em;
     }
-    i{
+    i {
         font-size: 25px;
         margin: 0 10px;
     }
-    .left{
+    .left {
         margin: 30px;
     }
-
+}
+@media only screen and (min-width: 760px) {
+    footer {
+        .left{
+            display: flex;
+            flex-direction: column ;
+        }
+        .container {
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1148px;
+            margin: 0 auto;
+            padding: 12px;
+            width: 100%;
+        }
+    }
 }

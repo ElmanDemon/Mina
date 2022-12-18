@@ -37,6 +37,21 @@ footer .left {
   margin: 30px;
 }
 
+@media only screen and (min-width: 760px) {
+  footer .left {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1148px;
+    margin: 0 auto;
+    padding: 12px;
+    width: 100%;
+  }
+}
 footer {
   margin-top: 150px;
   background-color: rgb(211, 211, 211);
@@ -66,6 +81,21 @@ footer .left {
   margin: 30px;
 }
 
+@media only screen and (min-width: 760px) {
+  footer .left {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1148px;
+    margin: 0 auto;
+    padding: 12px;
+    width: 100%;
+  }
+}
 header .navbar {
   height: 70px;
   width: 100%;
@@ -386,4 +416,72 @@ main .son a {
     margin: 4px 2px;
     cursor: pointer;
   }
+}
+main .shop_background {
+  background-image: url("/assets/imgs/backgroung shop.avif");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .shop_background h2 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 100px;
+}
+main .middle_icon .middle_icons {
+  text-align: center;
+}
+main .middle_icon .middle_icons ul {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+main .middle_icon .middle_icons ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .umumi {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: 0 auto;
+}
+main .umumi .card {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+main .umumi img {
+  margin-top: 75px;
+}
+main .umumi h4 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+main .umumi p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+  main .umumi {
+    grid-template-columns: auto;
+  }
+}
+main .about {
+  background-image: url("/assets/imgs/background_about.png");
+  min-height: 50vh;
+  background-repeat: no-repeat;
+}
+main .about h2 {
+  font-size: 100px;
+  color: white;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

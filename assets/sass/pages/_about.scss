@@ -1,0 +1,14 @@
+main{
+    .about{
+        background-image: url("/assets/imgs/background_about.png");
+        
+        min-height: 50vh;
+        background-repeat: no-repeat;
+        
+        h2{
+            font-size: 100px;
+            color: white;
+            text-align: center;
+        }
+    }
+}
