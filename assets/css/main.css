@@ -475,13 +475,127 @@ main .umumi p {
     grid-template-columns: auto;
   }
 }
-main .about {
+main .about_bcg {
   background-image: url("/assets/imgs/background_about.png");
   min-height: 50vh;
+  height: 50vh;
   background-repeat: no-repeat;
 }
-main .about h2 {
+main .about_bcg h2 {
   font-size: 100px;
   color: white;
   text-align: center;
+  padding-top: 200px;
+}
+main .text p {
+  margin: auto;
+  width: 680px;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 150px;
+}
+main .alex_Laura {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+main .alex_Laura .alex_Laura_inside {
+  width: 40%;
+  padding: 20px;
+}
+main .alex_Laura h2 {
+  font-size: 50px;
+}
+main .alex_Laura p {
+  margin-top: 100px;
+  font-size: 30px;
+}
+main .orange {
+  background-color: rgb(250, 145, 103);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+main .orange .orange_card {
+  width: 30%;
+  color: white;
+}
+main .orange h2 {
+  font-size: 50px;
+}
+main .orange p {
+  margin-top: 50px;
+  font-size: 30px;
+}
+main .orange button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+main .bacground_sustainability {
+  background-image: url("/assets/imgs/background_Sustainability1.png");
+  min-height: 50vh;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+main .bacground_sustainability h2 {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+main .text_sustainability p {
+  margin: auto;
+  width: 680px;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 150px;
+}
+main .working_ethos {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+main .working_ethos .working_ethos_card {
+  width: 30%;
+}
+main .working_ethos h2 {
+  font-size: 40px;
+  padding-left: 50px;
+}
+main .working_ethos p {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: start;
+  padding-left: 50px;
+}
+main .material {
+  background-color: rgb(250, 145, 103);
+  display: flex;
+  justify-content: center;
+}
+main .material .material_card {
+  width: 30%;
+  color: white;
+}
+main .material h2 {
+  font-size: 50px;
+  padding: 40px;
+}
+main .material p {
+  font-size: 25px;
+  padding: 40px;
 }/*# sourceMappingURL=main.css.map */
